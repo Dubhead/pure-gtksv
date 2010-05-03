@@ -1,0 +1,4 @@
+pure-gtksv: GtkSourceView2 binding for Pure programming language
+
+This is a modification of pure-gtk:
+http://code.google.com/p/pure-lang/wiki/Addons#pure-gtk
