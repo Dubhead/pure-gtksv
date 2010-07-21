@@ -61,9 +61,8 @@ when
   // Connect the callbacks to the corresponding signals.
   signal_connect window "delete_event" delete_cb NULL;
   signal_connect window "destroy" destroy_cb NULL;
-  signal_connect button "clicked" hello_cb NULL;
 
-  // Show the button and the main window.
+  // Show the main window.
   gtk::widget_show sourceView;
   gtk::widget_show window;
 end;
